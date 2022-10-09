@@ -1,0 +1,1241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=9">
+	<meta name="description" content="Universal">
+	<meta name="author" content="Universal">
+	<title>Universal Food</title>
+
+	<!-- Favicon Icon -->
+	<link rel="icon" type="image/png" href="images/fav.png">
+
+	<!-- Stylesheets -->
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link href='vendor/unicons-2.0.1/css/unicons.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/night-mode.css" rel="stylesheet">
+
+	<!-- Vendor Stylesheets -->
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet">
+	<link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Category Model Start-->
+	<div class="header-cate-model main-gambo-model modal fade" id="category_model" tabindex="-1" role="dialog"
+		aria-modal="false">
+		<div class="modal-dialog category-area" role="document">
+			<div class="category-area-inner">
+				<div class="modal-header">
+					<!-- <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+						<i class="uil uil-multiply"></i>
+					</button> -->
+				</div>
+				<div class="category-model-content modal-content">
+					<div class="cate-header">
+						<h4>Select Category</h4>
+					</div>
+					<ul class="category-by-cat">
+						<li>
+							<a href="fruits.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-1.svg" alt="">
+								</div>
+								<div class="text"> Fruits and Vegetables </div>
+							</a>
+						</li>
+						<li>
+							<a href="grocery.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-2.svg" alt="">
+								</div>
+								<div class="text"> Grocery & Staples </div>
+							</a>
+						</li>
+						<li>
+							<a href="dairy&eggs.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-3.svg" alt="">
+								</div>
+								<div class="text"> Dairy & Eggs </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-4.svg" alt="">
+								</div>
+								<div class="text"> Beverages </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-5.svg" alt="">
+								</div>
+								<div class="text"> Snacks </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-6.svg" alt="">
+								</div>
+								<div class="text"> Home Care </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-7.svg" alt="">
+								</div>
+								<div class="text"> Noodles & Sauces </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-8.svg" alt="">
+								</div>
+								<div class="text"> Personal Care </div>
+							</a>
+						</li>
+						<li>
+							<a href="shop.html" class="single-cat-item">
+								<div class="icon">
+									<img src="images/category/icon-9.svg" alt="">
+								</div>
+								<div class="text"> Pet Care </div>
+							</a>
+						</li>
+					</ul>
+					<a href="all_categories.html" class="morecate-btn"><i class="uil uil-apps"></i>More Categories</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Category Model End-->
+	<!-- Cart Sidebar Offcanvas Start-->
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header bs-canvas-header side-cart-header p-3">
+			<div class="d-inline-block main-cart-title" id="offcanvasRightLabel">My Cart <span>(2 Items)</span></div>
+			<button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+				<i class="uil uil-multiply"></i>
+			</button>
+		</div>
+		<div class="offcanvas-body p-0">
+			<div class="cart-top-total p-4">
+				<div class="cart-total-dil">
+					<h4>Universal Food</h4>
+					<span>$34</span>
+				</div>
+				<div class="cart-total-dil pt-2">
+					<h4>Delivery Charges</h4>
+					<span>$1</span>
+				</div>
+			</div>
+			<div class="side-cart-items">
+				<div class="cart-item">
+					<div class="cart-product-img">
+						<img src="images/Image-folder/01015.png" alt="">
+						<div class="offer-badge">6% OFF</div>
+					</div>
+					<div class="cart-text">
+						<h4>Product Title Here</h4>
+						<div class="cart-radio">
+							<ul class="kggrm-now">
+								<li>
+									<input type="radio" id="a1" name="cart1">
+									<label for="a1">0.50</label>
+								</li>
+								<li>
+									<input type="radio" id="a2" name="cart1">
+									<label for="a2">1kg</label>
+								</li>
+								<li>
+									<input type="radio" id="a3" name="cart1">
+									<label for="a3">2kg</label>
+								</li>
+								<li>
+									<input type="radio" id="a4" name="cart1">
+									<label for="a4">3kg</label>
+								</li>
+							</ul>
+						</div>
+						<div class="qty-group">
+							<div class="quantity buttons_added">
+								<input type="button" value="-" class="minus minus-btn">
+								<input type="number" step="1" name="quantity" value="1" class="input-text qty text">
+								<input type="button" value="+" class="plus plus-btn">
+							</div>
+							<div class="cart-item-price">$10 <span>$15</span></div>
+						</div>
+
+						<button type="button" class="cart-close-btn"><i class="uil uil-multiply"></i></button>
+					</div>
+				</div>
+				<div class="cart-item">
+					<div class="cart-product-img">
+						<img src="images/Image-folder/01018.png" alt="">
+						<div class="offer-badge">6% OFF</div>
+					</div>
+					<div class="cart-text">
+						<h4>Product Title Here</h4>
+						<div class="cart-radio">
+							<ul class="kggrm-now">
+								<li>
+									<input type="radio" id="a5" name="cart2">
+									<label for="a5">0.50</label>
+								</li>
+								<li>
+									<input type="radio" id="a6" name="cart2">
+									<label for="a6">1kg</label>
+								</li>
+								<li>
+									<input type="radio" id="a7" name="cart2">
+									<label for="a7">2kg</label>
+								</li>
+							</ul>
+						</div>
+						<div class="qty-group">
+							<div class="quantity buttons_added">
+								<input type="button" value="-" class="minus minus-btn">
+								<input type="number" step="1" name="quantity" value="1" class="input-text qty text">
+								<input type="button" value="+" class="plus plus-btn">
+							</div>
+							<div class="cart-item-price">$24 <span>$30</span></div>
+						</div>
+						<button type="button" class="cart-close-btn"><i class="uil uil-multiply"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas-footer">
+			<div class="cart-total-dil saving-total ">
+				<h4>Total Saving</h4>
+				<span>$11</span>
+			</div>
+			<div class="main-total-cart">
+				<h2>Total</h2>
+				<span>$35</span>
+			</div>
+			<div class="checkout-cart">
+				<a href="javascript:void(0)" class="promo-code">Have a promocode?</a>
+				<a href="checkout.html" class="cart-checkout-btn hover-btn">Proceed to Checkout</a>
+			</div>
+		</div>
+	</div>
+	<!-- Cart Sidebar Offcanvas End-->
+	<!-- Header Start -->
+	<header class="header clearfix">
+		<div class="top-header-group">
+			<div class="top-header">
+				<div class="main_logo" id="logo">
+					<a href="index.html"><img src="images/universal_logo2.png" alt=""></a>
+					<a href="index.html"><img class="logo-inverse" src="images/night-mode-logo.png" alt=""></a>
+				</div>
+				<div class="search120">
+					<div class="header_search position-relative">
+						<input class="prompt srch10" type="text" placeholder="Search for products..">
+						<i class="uil uil-search s-icon"></i>
+					</div>
+				</div>
+				<div class="header_right">
+
+					<ul>
+						<li>
+							<a href="javascript:void(0)" class="location-store" data-bs-toggle="modal"
+								data-bs-target="#location-model">
+								<span class="location-title">Delivery to</span>
+								<i class="fa fa-location-dot"></i>
+								<h4 class="location-name">New York..</h4>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="offer-link"><i
+									class="uil uil-phone-alt"></i>1800-000-000</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="offer-link"><i class="uil uil-gift"></i>Offers</a>
+						</li>
+						<li>
+							<a href="dashboard_wishlist.html" class="option_links" title="Wishlist"><i
+									class='uil uil-heart icon_wishlist'></i><span class="noti_count1">3</span></a>
+						</li>
+						<!-- <li class="dropdown account-dropdown">
+							<a href="javascript:void(0)" class="opts_account" role="button" id="accountClick"
+								data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="images/avatar/img-5.png" alt="">
+								<span class="user__name">Morshed</span>
+								<i class="uil uil-angle-down"></i>
+							</a>
+						</li> -->
+						<li class="dropdown account-dropdown">
+							<a href="javascript:void(0)" class="opts_account" role="button" id="accountClick"
+								data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="images/avatar/img-5.png" alt="">
+								<span class="user__name">Morshed</span>
+								<i class="uil uil-angle-down"></i>
+							</a>
+							<div class="dropdown-menu dropdown-menu-account dropdown-menu-end"
+								aria-labelledby="accountClick" data-bs-popper="none">
+								<div class="night_mode_switch__btn">
+									<a href="#" id="night-mode" class="btn-night-mode">
+										<i class="uil uil-moon"></i> Night mode
+										<span class="btn-night-mode-switch">
+											<span class="uk-switch-button"></span>
+										</span>
+									</a>
+								</div>
+								<a href="dashboard.html" class="channel_item"><i
+										class="uil uil-apps icon__1"></i>Dashbaord</a>
+								<a href="dashboard_order.html" class="channel_item"><i
+										class="uil uil-box icon__1"></i>My Orders</a>
+								<a href="dashboard_wishlist.html" class="channel_item"><i
+										class="uil uil-heart icon__1"></i>My Wishlist</a>
+								<a href="dashboard_wallet.html" class="channel_item"><i
+										class="uil uil-usd-circle icon__1"></i>My Wallet</a>
+								<a href="dashboard_address.html" class="channel_item"><i
+										class="uil uil-location-point icon__1"></i>My Address</a>
+								<a href="dashboard_coupon.html" class="channel_item"><i
+										class="uil uil-gift icon__1"></i>Coupons</a>
+								<a href="dashboard_profile.html" class="channel_item"><i
+										class="uil uil-user icon__1"></i>My Profile</a>
+								<a href="sign_in.html" class="channel_item"><i
+										class="uil uil-lock-alt icon__1"></i>Logout</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="sub-header-group">
+			<div class="sub-header">
+				<nav class="navbar navbar-expand-lg bg-gambo gambo-head navbar justify-content-lg-start pt-0 pb-0">
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+						<span class="navbar-toggler-icon">
+							<i class="uil uil-bars"></i>
+						</span>
+					</button>
+					<div class="d-block d-md-none">
+						<a href="javascript:void(0)" class="location-store" data-bs-toggle="modal"
+							data-bs-target="#location-model">
+							<span class="location-title">Delivery to</span>
+							<i class="fa fa-location-dot"></i>
+							<h4 class="location-name">New York..</h4>
+						</a>
+					</div>
+
+					<a href="javascript:void(0)" class="category_drop hover-btn" data-bs-toggle="modal"
+						data-bs-target="#category_model" title="Categories"><i class="uil uil-apps"></i><span
+							class="cate__icon">Select Category</span></a>
+					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel">
+						<div class="offcanvas-header">
+							<div class="offcanvas-logo" id="offcanvasNavbarLabel">
+								<a href="index.html"><img src="images/universal_logo2.png" alt=""></a>
+								<a href="index.html"><img class="logo-inverse" src="images/night-mode-logo.png"
+										alt=""></a>
+							</div>
+							<button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+								<i class="uil uil-multiply"></i>
+							</button>
+						</div>
+						<div class="offcanvas-body">
+							<div class="offcanvas-category mb-4 d-block d-lg-none">
+								<div class="offcanvas-search position-relative">
+									<input class="canvas_search" type="text" placeholder="Search for products..">
+									<i class="uil uil-search hover-btn canvas-icon"></i>
+								</div>
+								<button class="category_drop_canvas hover-btn mt-4" data-bs-toggle="modal"
+									data-bs-target="#category_model" title="Categories"><i
+										class="uil uil-apps"></i><span class="cate__icon">Select
+										Category</span></button>
+							</div>
+							<ul class="navbar-nav justify-content-start flex-grow-1 pe_5">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="javascript:void(0)">Offer</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="shop.html">Products</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="all_categories.html">Categories</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										Brands
+									</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										Food Service
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about_us.html">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact_us.html">Contact Us</a>
+								</li>
+							</ul>
+							<div class="d-block d-lg-none">
+								<ul class="offcanvas-help-links">
+									<li><a href="javascript:void(0)" class="offer-link"><i
+												class="uil uil-phone-alt"></i>1800-000-000</a></li>
+									<li><a href="javascript:void(0)" class="offer-link"><i
+												class="uil uil-gift"></i>Offers</a></li>
+									<li><a href="javascript:void(0)" class="offer-link"><i
+												class="uil uil-question-circle"></i>Help</a></li>
+								</ul>
+								<div class="offcanvas-copyright">
+									<i class="uil uil-copyright"></i>Copyright 2022 <b>Universal Food</b> . All rights
+									reserved
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub_header_right">
+						<div class="header_cart">
+							<a href="javascript:void(0)" class="cart__btn hover-btn" data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+									class="uil uil-shopping-cart-alt"></i><span>Cart</span><ins>2</ins><i
+									class="uil uil-angle-down"></i></a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<!-- Body Start -->
+	<div class="wrapper-3">
+		<div class="das-nav bg-current-shade bg-image-bottomcenter bg-image-cover"
+			style="background-image: url(images/best-offers/coupon-bg.jpg);z-index: 1;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 ps-4 offset-lg-4 d-flex align-items-start flex-column h-250">
+						<h1 class="mt-lg-auto mb-4 mt-5 display3-size display1-sm-size text-grey-900 fw-700">Orders</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container mt-2 mb-5">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-12 z-index--2">
+					<div class="dashboard-wrapper">
+						<div class="user-dt">
+							<div class="user-img">
+								<img src="images/avatar/pt-1.jpg" alt="">
+								<div class="img-add">
+									<input type="file" id="file">
+									<label for="file"><i class="uil uil-camera-plus"></i></label>
+								</div>
+							</div>
+							<h4>Johe Doe</h4>
+							<p>@ swrryhurry<a href="#"><i class="uil uil-edit"></i></a></p>
+						</div>
+						<div class="left-side-tabs">
+							<div class="dashboard-left-links">
+								<a href="dashboard.html" class="user-item"><i
+										class="uil uil-apps bg-primary-gradiant"></i>Dashbaord</a>
+								<a href="dashboard_order.html" class="user-item "><i
+										class="uil uil-box bg-gold-gradiant"></i>My Orders</i></a>
+								<a href="dashboard_coupon.html" class="user-item "><i
+										class="uil uil-gift bg-mini-gradiant"></i>Coupons</a>
+								<a href="dashboard_wallet.html" class="user-item "><i
+										class="uil uil-wallet bg-skype"></i>My Wallet</a>
+								<a href="dashboard_wishlist.html" class="user-item "><i
+										class="uil uil-heart bg-current-gradiant"></i>Shopping Wishlist</a>
+								<a href="dashboard_address.html" class="user-item "><i
+										class="uil uil-location-point bg-blue-gradiant "></i>My Address</a>
+								<a href="dashboard_profile.html" class="user-item "><i
+										class="uil uil-user bg-blue-gradiant-2 "></i>My Profile</a>
+								<a href="sign_in.html" class="user-item "><i
+										class="uil uil-exit bg-red-gradiant"></i>Logout</a>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-xl-8 col-lg-8 col-md-12">
+					<div class="dashboard-right-01 mt-5">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="main-title-tab">
+									<h4><i class="uil uil-box"></i>My Orders</h4>
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12">
+								<div class="pdpt-bg">
+									<div class="pdpt-title">
+										<h6>Delivery On The Way.</h6>
+									</div>
+									<div class="order-body10">
+										<div class="order-product-wrap">
+											<ul class="order-dtsll">
+												<li>
+													<div class="order-dt-img">
+														<img src="images/product/new/2.jpg" alt="">
+													</div>
+												</li>
+												<li>
+													<div class="order-dt47">
+														<h4>Apple</h4>
+														<p>Delivered - Universal Food</p>
+														<div class="order-title">2 Items <span data-bs-toggle="tooltip"
+																data-bs-placement="top"
+																title="2kg broccoli, 1kg Apple">?</span></div>
+													</div>
+												</li>
+											</ul>
+
+											<ul class="order-dtsll">
+												<li>
+													<div class="order-dt-img">
+														<img src="images/product/new/2.jpg" alt="">
+													</div>
+												</li>
+												<li>
+													<div class="order-dt47">
+														<h4>Orange</h4>
+														<p>Delivered - Universal Food</p>
+														<div class="order-title">5 Items <span data-bs-toggle="tooltip"
+																data-bs-placement="top"
+																title="2kg broccoli, 1kg Apple">?</span></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="total-dt">
+											<div class="total-checkout-group">
+												<div class="cart-total-dil">
+													<h4>Sub Total</h4>
+													<span>$55</span>
+												</div>
+												<div class="cart-total-dil pt-3">
+													<h4>Delivery Charges</h4>
+													<span>Free</span>
+												</div>
+											</div>
+											<div class="main-total-cart">
+												<h2>Total</h2>
+												<span>$55</span>
+											</div>
+										</div>
+										<div class="track-order">
+											<h4>Track Order</h4>
+											<div class="bs-wizard" style="border-bottom:0;">
+												<div class="bs-wizard-step complete">
+													<div class="text-center bs-wizard-stepnum">Placed</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step complete">
+													<!-- complete -->
+													<div class="text-center bs-wizard-stepnum">Packed</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step active">
+													<!-- complete -->
+													<div class="text-center bs-wizard-stepnum">On the way</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step disabled">
+													<!-- active -->
+													<div class="text-center bs-wizard-stepnum">Delivered</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+											</div>
+										</div>
+										<div class="alert-offer">
+											<img src="images/ribbon.svg" alt="">
+											Cashback of $2 will be credit to Universal Food wallet 6-12 hours of
+											delivery.
+										</div>
+										<div class="call-bill">
+											<div class="order-bill-slip">
+												<a href="bill.html" class="bill-btn5 hover-btn">View Bill</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pdpt-bg">
+									<div class="pdpt-title">
+										<h6>Delivery Completed.</h6>
+									</div>
+									<div class="order-body10">
+										<div class="order-product-wrap">
+											<ul class="order-dtsll">
+												<li>
+													<div class="order-dt-img">
+														<img src="images/product/new/1.jpg" alt="">
+													</div>
+												</li>
+												<li>
+													<div class="order-dt47">
+														<h4>Ludhiana</h4>
+														<p>Delivered - Universal Food</p>
+														<div class="order-title">2 Items <span data-bs-toggle="tooltip"
+																data-bs-placement="top"
+																title="2kg broccoli, 1kg Apple">?</span></div>
+													</div>
+												</li>
+											</ul>
+											<ul class="order-dtsll">
+												<li>
+													<div class="order-dt-img">
+														<img src="images/product/new/1.jpg" alt="">
+													</div>
+												</li>
+												<li>
+													<div class="order-dt47">
+														<h4>Ludhiana</h4>
+														<p>Delivered - Universal Food</p>
+														<div class="order-title">2 Items <span data-bs-toggle="tooltip"
+																data-bs-placement="top"
+																title="2kg broccoli, 1kg Apple">?</span></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<div class="total-dt">
+											<div class="total-checkout-group">
+												<div class="cart-total-dil">
+													<h4>Sub Total</h4>
+													<span>$25</span>
+												</div>
+												<div class="cart-total-dil pt-3">
+													<h4>Delivery Charges</h4>
+													<span>Free</span>
+												</div>
+											</div>
+											<div class="main-total-cart">
+												<h2>Total</h2>
+												<span>$25</span>
+											</div>
+										</div>
+										<div class="track-order">
+											<h4>Track Order</h4>
+											<div class="bs-wizard" style="border-bottom:0;">
+												<div class="bs-wizard-step complete">
+													<div class="text-center bs-wizard-stepnum">Placed</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step complete">
+													<!-- complete -->
+													<div class="text-center bs-wizard-stepnum">Packed</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step complete">
+													<!-- complete -->
+													<div class="text-center bs-wizard-stepnum">Arrived</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+												<div class="bs-wizard-step complete">
+													<!-- complete -->
+													<div class="text-center bs-wizard-stepnum">Delivered</div>
+													<div class="progress">
+														<div class="progress-bar"></div>
+													</div>
+													<a href="#" class="bs-wizard-dot"></a>
+												</div>
+											</div>
+										</div>
+										<div class="call-bill">
+											<div class="delivery-man">
+												<a href="#" data-bs-toggle="modal"
+												data-bs-target="#product_rating_model"><i class="uil uil-rss"></i>Feedback</a>
+											</div>
+											<div class="order-bill-slip">
+												<a href="bill.html" class="bill-btn5 hover-btn">View Bill</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Body End -->
+		<!-- Footer Start -->
+
+	<!-- Footer Start -->
+	<footer class="footer">
+		<div class="footer-first-row">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 align-self-center">
+						<div class="footer-subscribe-box">
+							<h5>$20 discount for your first order</h5>
+							<h2>Join our newsletter and get...</h2>
+							<p>Join our email subscription now to get updates on promotions and coupons.</p>
+							<div class="subscribe-box">
+								<div class="sub-icon-box">
+									<i class="fa fa-envelope-circle-check"></i>
+								</div>
+								<input class="prompt srch12" type="text" placeholder="Your email address..">
+								<button class="sub-s-btn">Subscribe</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="subscribe-img-box">
+							<img src="images/product/best-deal/coupon.png" alt="">
+							<h2 class="discount--price">20<span class="discount-per">%</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-second-row">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="second-row-item">
+							<h4>Categories</h4>
+							<ul>
+								<li><a href="404.html">Fruits and Vegetables</a></li>
+								<li><a href="404.html">Grocery & Staples</a></li>
+								<li><a href="404.html">Dairy & Eggs</a></li>
+								<li><a href="404.html">Beverages</a></li>
+								<li><a href="404.html">Snacks</a></li>
+								<li><a href="404.html">Home Care</a></li>
+								<li><a href="404.html">Noodles & Sauces</a></li>
+								<li><a href="404.html">More...</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="second-row-item">
+							<h4>Useful Links</h4>
+							<ul>
+								<li><a href="404.html">About US</a></li>
+								<li><a href="404.html">Featured Products</a></li>
+								<li><a href="404.html">Offers</a></li>
+								<li><a href="404.html">Blog</a></li>
+								<li><a href="404.html">Faq</a></li>
+								<li><a href="404.html">Careers</a></li>
+								<li><a href="404.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="second-row-item">
+							<h4>Top Cities</h4>
+							<ul>
+								<li><a href="404.html">New York</a></li>
+								<li><a href="404.html">California</a></li>
+								<li><a href="404.html">Illinois</a></li>
+								<li><a href="404.html">Dhaka</a></li>
+								<li><a href="404.html">Hyderabad</a></li>
+								<li><a href="404.html">London</a></li>
+								<li><a href="404.html">Australia</a></li>
+								<li><a href="404.html">Portugal</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="second-row-item-app">
+							<h4>Download App</h4>
+							<ul>
+								<li><a href="404.html"><img class="download-btn mb-2" src="images/download-1.svg"
+											alt=""></a></li>
+								<li><a href="404.html"><img class="download-btn mb-2" src="images/download-2.svg"
+											alt=""></a></li>
+							</ul>
+						</div>
+
+						<div class="second-row-item-payment">
+							<h4>Social Media</h4>
+							<div class="social-links-footer">
+								<ul>
+									<li><a href="404.html"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="404.html"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="404.html"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="404.html"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="404.html"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row footer-middle">
+					<div class="col-md-12">
+						<div class="footer-bottom-group">
+							<div class="footer-bottom-links">
+								<ul>
+									<li><a href="about_us.html">About</a></li>
+									<li><a href="contact_us.html">Contact Us</a></li>
+									<li><a href="privacy_policy.html">Privacy Policy</a></li>
+									<li><a href="term_and_conditions.html">Term & Conditions</a></li>
+									<li><a href="refund_and_return_policy.html">Refund & Return Policy</a></li>
+								</ul>
+							</div>
+							<div class="second-row-item-payment-2">
+								<h4>Payment Method</h4>
+								<div class="footer-payments">
+									<ul id="paypal-gateway" class="financial-institutes">
+										<li class="financial-institutes__logo">
+											<img alt="Visa" title="Visa" src="images/footer-icons/pyicon-6.svg">
+										</li>
+										<li class="financial-institutes__logo">
+											<img alt="Visa" title="Visa" src="images/footer-icons/pyicon-1.svg">
+										</li>
+										<li class="financial-institutes__logo">
+											<img alt="MasterCard" title="MasterCard"
+												src="images/footer-icons/pyicon-2.svg">
+										</li>
+										<li class="financial-institutes__logo">
+											<img alt="American Express" title="American Express"
+												src="images/footer-icons/pyicon-3.svg">
+										</li>
+										<li class="financial-institutes__logo">
+											<img alt="Discover" title="Discover" src="images/footer-icons/pyicon-4.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-last-row">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright-text text-center">
+							<i class="uil uil-copyright"></i>Copyright 2022 <b>Universal Food</b> . All rights
+							reserved Design & Developed By <a href="404.html">Retina Soft</a>.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+	<!-- Javascripts -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="vendor/OwlCarousel/owl.carousel.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/offset_overlay.js"></script>
+	<script src="js/product.thumbnail.slider.js"></script>
+	<script src="js/night-mode.js"></script>
+
+	<!-- Location PopUP start -->
+	<div class="modal fade" id="chooseDeliveryLocationModal" tabindex="-1"
+		aria-labelledby="chooseDeliveryLocationModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="custom-modal-c modal-content">
+				<div class="location-m-header modal-header">
+					<div class="modal-h-content">
+						<img class="h-img" src="images/best-offers/11371-ai.png" alt="">
+						<div class="content-h-box text-center">
+							<h5 class="modal-title m-title" id="location-model_label">Choose your Delivery Location</h5>
+							<small>Enter your address and we will specify the offer for your area.</small>
+						</div>
+					</div>
+					<div class="location-select d-flex">
+						<div class="location-country">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your Country</option>
+								<option data-tokens="mustard">USA</option>
+								<option data-tokens="frosting">UK</option>
+								<option data-tokens="frosting">Bangladesh</option>
+								<option data-tokens="frosting">India</option>
+								<option data-tokens="frosting">Pakistan</option>
+								<option data-tokens="frosting">Pakistan</option>
+								<option data-tokens="frosting">Pakistan</option>
+								<option data-tokens="frosting">Pakistan</option>
+								<option data-tokens="frosting">Pakistan</option>
+							</select>
+						</div>
+						<div class="location-city">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your City</option>
+								<option data-tokens="mustard">New York</option>
+								<option data-tokens="frosting">London</option>
+								<option data-tokens="frosting">Dhaka</option>
+								<option data-tokens="frosting">Mumbai</option>
+								<option data-tokens="frosting">Lahore</option>
+							</select>
+						</div>
+						<div class="location-area">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your Area</option>
+								<option data-tokens="mustard">New York - Brooklyn</option>
+								<option data-tokens="frosting">London - Chelsea</option>
+								<option data-tokens="frosting">Dhaka - Mohammadpur</option>
+								<option data-tokens="frosting">Mumbai - Bandra</option>
+								<option data-tokens="frosting">Lahore - Town Hall</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+				</div>
+				<div class="location-m-footer modal-footer">
+					<button type="button" class="btn btn-custom-location" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-location-submit">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Location PopUP End -->
+	<!-- Location PopUP start -->
+	<div style="z-index: 999;" class="modal-2 modal fade" id="location-model" tabindex="-1"
+		aria-labelledby="location-model_label" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="custom-modal-c modal-content">
+				<div class="location-m-header modal-header">
+					<div class="modal-h-content">
+						<img class="h-img" src="images/best-offers/11371-ai.png" alt="">
+						<div class="content-h-box text-center">
+							<h5 class="modal-title m-title" id="location-model_label">Choose your Delivery Location</h5>
+							<small>Enter your address and we will specify the offer for your area.</small>
+						</div>
+					</div>
+
+					<div class="location-select d-flex">
+						<div class="location-country">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your Country</option>
+								<option data-tokens="mustard">USA</option>
+								<option data-tokens="frosting">UK</option>
+								<option data-tokens="frosting">Bangladesh</option>
+								<option data-tokens="frosting">India</option>
+							</select>
+						</div>
+						<div class="location-city">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your City</option>
+								<option data-tokens="mustard">New York</option>
+								<option data-tokens="frosting">London</option>
+								<option data-tokens="frosting">Dhaka</option>
+								<option data-tokens="frosting">Mumbai</option>
+							</select>
+						</div>
+						<div class="location-area">
+							<select class="selectpicker custom-select-location" data-live-search="true">
+								<option data-tokens="ketchup mustard">Select Your Area</option>
+								<option data-tokens="mustard">New York - Brooklyn</option>
+								<option data-tokens="frosting">London - Chelsea</option>
+								<option data-tokens="frosting">Dhaka - Mohammadpur</option>
+								<option data-tokens="frosting">Mumbai - Bandra</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+				</div>
+				<div class="location-m-footer modal-footer">
+					<button type="button" class="btn btn-custom-location" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-location-submit">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Location PopUP End -->
+	<script>
+		$(document).ready(function () {
+
+			locationModal();
+
+		});
+	</script>
+
+	<!-- ProductRating PopUP Start -->
+	<div id="product_rating_model" class="header-cate-model main-gambo-model modal fade" tabindex="-1" role="dialog"
+		aria-modal="false">
+		<div class="modal-dialog category-area-02" role="document">
+			<div class="category-area-inner">
+				<div class="modal-header">
+					<!-- <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close">
+							<i class="uil uil-multiply"></i>
+						</button> -->
+				</div>
+				<div class="category-model-content modal-content">
+					<div class="cate-header">
+						<h4 class="mb-0">Review And Rating</h4>
+					</div>
+					<div class="row">
+						<div class="col-md-12 pt-3 pb-3">
+							<div class="pro-rating">
+								<div class="item">
+									<div class="cart-item-2">
+										<div class="cart-product-img">
+											<img src="images/product/new/1.jpg" alt="">
+										</div>
+										<div class="cart-text">
+											<h4>Product Title Here</h4>
+											<div class="special-cart">
+												<a class="special-feedback-btn collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" " aria-expanded="false" aria-controls="collapseOne"><i class="uil uil-rss"></i> Feedback</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="cart-item-2">
+										<div class="cart-product-img">
+											<img src="images/product/new/2.jpg" alt="">
+										</div>
+										<div class="cart-text">
+											<h4>Product Title Here</h4>
+											<div class="special-cart">
+												<a class="special-feedback-btn" href="#"><i class="uil uil-rss"></i> Feedback</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="feedback-wrapper">
+						<div class="panel-group-2 accordion" id="accordion0">
+							<div class="panel panel-default">
+									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-bs-parent="#accordion0" style="">
+										<div class="panel-body">
+											<div class="master">
+												<h2>How was your experience about <span>Potato</span> ?</h2>
+											<div class="rating-component">
+											  <div class="status-msg">
+												<label>
+																<input  class="rating_msg" type="hidden" name="rating_msg" value=""/>
+															</label>
+											  </div>
+											  <div class="stars-box">
+												<i class="star fa fa-star" title="1 star" data-message="Poor" data-value="1"></i>
+												<i class="star fa fa-star" title="2 stars" data-message="Too bad" data-value="2"></i>
+												<i class="star fa fa-star" title="3 stars" data-message="Average Quality" data-value="3"></i>
+												<i class="star fa fa-star" title="4 stars" data-message="Nice" data-value="4"></i>
+												<i class="star fa fa-star" title="5 stars" data-message="Very Good Quality" data-value="5"></i>
+											  </div>
+											  <!-- <div class="starrate">
+												<label>
+																<input  class="ratevalue" type="hidden" name="rate_value" value=""/>
+															</label>
+											  </div> -->
+											</div>
+										
+											<div class="feedback-tags">
+											  <div class="tags-container" data-tag-set="1">
+												<div class="question-tag">
+												  Why was your experience so bad?
+												</div>
+											  </div>
+											  <div class="tags-container" data-tag-set="2">
+												<div class="question-tag">
+												  Why was your experience so bad?
+												</div>
+										
+											  </div>
+										
+											  <div class="tags-container" data-tag-set="3">
+												<div class="question-tag">
+												  Why was your average rating experience ?
+												</div>
+											  </div>
+											  <div class="tags-container" data-tag-set="4">
+												<div class="question-tag">
+												  Why was your experience good?
+												</div>
+											  </div>
+										
+											  <div class="tags-container" data-tag-set="5">
+												<div class="make-compliment">
+												  <div class="compliment-container">
+													Give a compliment
+													<i class="far fa-smile-wink"></i>
+												  </div>
+												</div>
+											  </div>
+											  
+											  <div class="tags-box">
+												<textarea class = "tag form-control" rows = "2" pname="comment" id="inlineFormInputName" placeholder="please enter your review"></textarea>
+												<input type="hidden" name="product_id" value="{{ $products->id }}" />
+											  </div>
+											  
+											</div>
+										
+											<div class="button-box">
+											  <input type="submit" class=" done" disabled="disabled" value="Add review" />
+											</div>
+										
+											<div class="submited-box">
+											  <div class="loader"></div>
+											  <div class="success-message text-center">
+												Thank you For Valuable Feedback!
+												<div class="d-block mt-2">
+													<a class="next-feedback" href="#">Next Product</a>
+												</div>
+												
+											  </div>
+											</div>
+										  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ProductRating PopUP Start -->
+	<!-- PRoduct Rating Js Start -->
+	<script>
+		$(".rating-component .star").on("mouseover", function () {
+			var onStar = parseInt($(this).data("value"), 10); //
+			$(this).parent().children("i.star").each(function (e) {
+				if (e < onStar) {
+					$(this).addClass("hover");
+				} else {
+					$(this).removeClass("hover");
+				}
+			});
+		}).on("mouseout", function () {
+			$(this).parent().children("i.star").each(function (e) {
+				$(this).removeClass("hover");
+			});
+		});
+
+		$(".rating-component .stars-box .star").on("click", function () {
+			var onStar = parseInt($(this).data("value"), 10);
+			var stars = $(this).parent().children("i.star");
+			var ratingMessage = $(this).data("message");
+
+			var msg = "";
+			if (onStar > 1) {
+				msg = onStar;
+			} else {
+				msg = onStar;
+			}
+			$('.rating-component .starrate .ratevalue').val(msg);
+
+
+
+			$(".fa-smile-wink").show();
+
+			$(".button-box .done").show();
+
+			if (onStar === 5) {
+				$(".button-box .done").removeAttr("disabled");
+			} else {
+				$(".button-box .done").attr("disabled", "true");
+			}
+
+			for (i = 0; i < stars.length; i++) {
+				$(stars[i]).removeClass("selected");
+			}
+
+			for (i = 0; i < onStar; i++) {
+				$(stars[i]).addClass("selected");
+			}
+
+			$(".status-msg .rating_msg").val(ratingMessage);
+			$(".status-msg").html(ratingMessage);
+			$("[data-tag-set]").hide();
+			$("[data-tag-set=" + onStar + "]").show();
+		});
+
+		$(".feedback-tags  ").on("click", function () {
+			var choosedTagsLength = $(this).parent("div.tags-box").find("input").length;
+			choosedTagsLength = choosedTagsLength + 1;
+
+			if ($(this).hasClass("choosed")) {
+				$(this).removeClass("choosed");
+				choosedTagsLength = choosedTagsLength - 2;
+			} else {
+				$(this).addClass("choosed");
+				$(".button-box .done").removeAttr("disabled");
+			}
+
+			console.log(choosedTagsLength);
+
+			if (choosedTagsLength <= 0) {
+				$(".button-box .done").attr("enabled", "false");
+			}
+		});
+
+
+
+		$(".compliment-container .fa-smile-wink").on("click", function () {
+			$(this).fadeOut("slow", function () {
+				$(".list-of-compliment").fadeIn();
+			});
+		});
+
+
+
+		$(".done").on("click", function () {
+			$(".rating-component").hide();
+			$(".feedback-tags").hide();
+			$(".button-box").hide();
+			$(".submited-box").show();
+			$(".submited-box .loader").show();
+
+			setTimeout(function () {
+				$(".submited-box .loader").hide();
+				$(".submited-box .success-message").show();
+				$(".submited-box .next-feedback").show();
+			}, 1500);
+		});
+	</script>
+	<!-- PRoduct Rating Js End -->
+
+
+</body>
+
+</html>
